@@ -54,12 +54,13 @@ function M.config()
     "html",
     "tsserver",
     "astro",
-    "pyright",
+    "ruff_lsp",
     "bashls",
     "jsonls",
     "yamlls",
     "marksman",
     "tailwindcss",
+    "terraform",
   }
 
   local default_diagnostic_config = {
