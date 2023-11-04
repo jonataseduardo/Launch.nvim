@@ -13,13 +13,13 @@ M.servers = {
   "html",
   "tsserver",
   "astro",
-  "pyright",
+  "ruff_lsp",
   "bashls",
   "jsonls",
   "yamlls",
   "marksman",
   "tailwindcss",
-  "terraform"
+  "terraformls"
 }
 
 function M.config()

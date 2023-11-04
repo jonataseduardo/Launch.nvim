@@ -60,7 +60,7 @@ function M.config()
     "yamlls",
     "marksman",
     "tailwindcss",
-    "terraform",
+    "terraformls",
   }
 
   local default_diagnostic_config = {
