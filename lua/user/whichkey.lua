@@ -135,6 +135,12 @@ function M.config()
       name = "Treesitter",
       i = { ":TSConfigInfo<cr>", "Info" },
     },
+    -- Iron
+    s = {
+      name = "Iron",
+      s = { "<cmd>IronRepl<CR>", "Start Iron Repl" },
+      t = { "<cmd>IronFocus<CR>", "Go to Iron terminal" },
+    },
   }
 
   local opts = {
