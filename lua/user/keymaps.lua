@@ -9,20 +9,10 @@ keymap("n", "<C-Space>", "<cmd>WhichKey \\<space><cr>", opts)
 keymap("n", "<C-i>", "<C-i>", opts)
 
 -- -- Resize with arrows
-keymap("n", "<C-Up>", ":resize -2<CR>", opts)
-keymap("n", "<C-Down>", ":resize +2<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
-
--- Navigate buffers
--- keymap("n", "<S-l>", ":bnext<CR>", opts)
--- keymap("n", "<S-h>", ":bprevious<CR>", opts)
-
--- Clear highlights
--- keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
-
--- Close buffers
-keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "<M-j>", ":resize -2<CR>", opts)
+keymap("n", "<M-k>", ":resize +2<CR>", opts)
+keymap("n", "<M-h>", ":vertical resize -2<CR>", opts)
+keymap("n", "<M-l>", ":vertical resize +2<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
