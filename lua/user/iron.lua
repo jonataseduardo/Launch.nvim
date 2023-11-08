@@ -31,7 +31,7 @@ function M.config()
     -- or use `should_map_plug = true` and map from you vim files
     keymaps = {
       send_motion = "<leader>sc",
-      visual_send = "<leader>sc",
+      visual_send = "<leader>sl",
       send_file = "<leader>sf",
       send_line = "<leader>sl",
       send_until_cursor = "<leader>su",
