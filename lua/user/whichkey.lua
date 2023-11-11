@@ -137,9 +137,9 @@ function M.config()
     },
 
     s = {
-      name = "Iron",
-      s = { "<cmd>IronRepl<CR>", "Start Iron Repl" },
-      t = { "<cmd>IronFocus<CR>", "Go to Iron terminal" },
+      name = "ToggleTerm",
+      l = { "<cmd>ToggleTermSendCurrentLine<CR>", "Sends line to terminal" },
+      v = { "<cmd>ToggleTermSendVisualSelection<CR>", "Send visual selecion to terminal" },
     },
 
     c = {

@@ -9,10 +9,10 @@ keymap("n", "<C-Space>", "<cmd>WhichKey \\<space><cr>", opts)
 keymap("n", "<C-i>", "<C-i>", opts)
 
 -- -- Resize with arrows
-keymap("n", "<M-down>", ":resize -2<CR>", opts)
-keymap("n", "<M-up>", ":resize +2<CR>", opts)
-keymap("n", "<M-left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<M-right>", ":vertical resize +2<CR>", opts)
+--keymap("n", "<M-down>", ":resize -2<CR>", opts)
+--keymap("n", "<M-up>", ":resize +2<CR>", opts)
+--keymap("n", "<M-left>", ":vertical resize -2<CR>", opts)
+--keymap("n", "<M-right>", ":vertical resize +2<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
