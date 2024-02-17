@@ -23,7 +23,7 @@ function M.config()
     local copilot_active = false
 
     for _, client in pairs(buf_clients) do
-      if client.name ~= "null-ls" and client.name ~= "copilot" then
+      if client.name ~= "none-ls" and client.name ~= "copilot" then
         table.insert(buf_client_names, client.name)
       end
 

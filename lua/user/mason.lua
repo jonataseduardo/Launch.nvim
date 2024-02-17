@@ -13,7 +13,7 @@ M.servers = {
   "html",
   "tsserver",
   "astro",
-  "ruff_lsp",
+  "pyright",
   "bashls",
   "jsonls",
   "yamlls",
